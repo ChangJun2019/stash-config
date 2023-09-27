@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Safari Google Redirection",
+    "desc": "解决 iOS Safari 浏览器默认搜索 Google cn 问题",
+    "url": "https://raw.githubusercontent.com/ChangJun2019/stash-config/main/google.stoverride",
+    "owner": "ChangJun2019",
+    "repo": "stash-config"
+  }
+]
