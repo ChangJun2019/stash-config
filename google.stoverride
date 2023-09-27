@@ -1,0 +1,10 @@
+name: Safari Google Redirection
+desc: 解决 iOS Safari 浏览器默认搜索 Google cn 问题
+
+http:
+  mitm:
+    - g.cn
+    - "*.google.cn"
+  rewrite:
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+    - ^https?:\/\/(www.)?(google)\.com.hk https://www.google.com 302
