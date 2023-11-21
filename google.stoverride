@@ -5,6 +5,7 @@ http:
   mitm:
     - g.cn
     - "*.google.cn"
-  rewrite:
+    - "*.google.com.hk"
+  url-rewrite:
     - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
     - ^https?:\/\/(www.)?(google)\.com.hk https://www.google.com 302
